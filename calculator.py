@@ -1,3 +1,4 @@
+# Define the add, subtract, multiply, and divide functions
 def add(n1, n2):
     return n1 + n2
 
@@ -10,6 +11,7 @@ def multiply(n1, n2):
 def divide(n1, n2):
     return n1 / n2
 
+# Dictionary for mapping input to the functions
 operations = {
     '+': add,
     '-': subtract,
@@ -17,6 +19,7 @@ operations = {
     '/': divide
 }
 
+# The primary program function
 def calculator():
     should_accumulate = True
 
